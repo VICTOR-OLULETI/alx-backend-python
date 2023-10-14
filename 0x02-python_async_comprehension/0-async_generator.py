@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-    Task 0. 
+    Task 0.
     function: async_generator
     Args: no arguments
 """
 import asyncio
 import random
 from typing import Generator
+
 
 async def async_generator() -> Generator[float, None, None]:
     """This function loops 10 times, each time asynchronously
