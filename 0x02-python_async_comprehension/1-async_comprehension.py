@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Task 1. 
+    Task 1.
     function: async_generator
     Args: no arguments
 """
@@ -14,4 +14,3 @@ async def async_comprehension() -> List[float]:
     """This coroutine will collect 10 random numbers using an async
     comprehensing over async generator"""
     return [i async for i in async_generator()]
- 
